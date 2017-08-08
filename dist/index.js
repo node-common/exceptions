@@ -49,4 +49,10 @@ class RestrictedAccessException extends Exception {
     }
 }
 exports.RestrictedAccessException = RestrictedAccessException;
+class RuntimeException extends Exception {
+    constructor(message) {
+        super(message, 500);
+    }
+}
+exports.RuntimeException = RuntimeException;
 //# sourceMappingURL=index.js.map

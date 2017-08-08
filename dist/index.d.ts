@@ -21,3 +21,6 @@ export declare class NotAuthorizedException extends Exception {
 export declare class RestrictedAccessException extends Exception {
     constructor(message: string);
 }
+export declare class RuntimeException extends Exception {
+    constructor(message: string);
+}
