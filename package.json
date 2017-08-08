@@ -1,13 +1,17 @@
 {
-  "name": "exceptions",
+  "name": "ts-exceptions",
   "author": "Anton Repin <ar@xdire.io>",
   "version": "1.0.0",
   "licence": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {},
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/node-common/exceptions"
+  },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "tsc"
   },
   "devDependencies": {
